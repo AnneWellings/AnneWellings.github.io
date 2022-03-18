@@ -4611,6 +4611,11 @@ textarea.form-control-lg {
 
 }
 
+.video-container
+{
+  width:100vw;
+}
+
 .img-btn{
   position:absolute;
   margin-top:-15vw;
