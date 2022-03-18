@@ -4606,22 +4606,37 @@ textarea.form-control-lg {
   border-radius: 0.375rem;
 }
 
+.img-overlay{
+  text-align: center;
 
-.img-overlay {
+}
+
+.img-btn{
+  position:absolute;
+  margin-top:-15vw;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  width:200px;
+}
+
+/* .img-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
+  pointer-events: none;
 }
 
 .img-overlay:before {
   content: ' ';
   display: block;
-  /* adjust 'height' to position overlay content vertically */
-  height: 90%;
-}
+  /* adjust 'height' to position overlay content vertically 
+  height: 40vw;
+} */
 
 .card-img,
 .card-img-top,
@@ -11364,14 +11379,13 @@ html {
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
-  width: 5.25rem;
-  height: 5.25rem;
+  width: 4rem;
+  height:4rem;
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
   margin:10px;
 }
-
 
 #mainNav {
   padding-top: 1rem;
