@@ -185,12 +185,11 @@
 
 .tealGlowText{
   color: var(--bs-teal-light) !important;
+  text-shadow: 0px 0px 5px var(--bs-teal-light);
   
 }
 
-.tealGlowText:hover{
-  text-shadow: 0px 0px 5px var(--bs-teal-light);
-}
+
 
 .pinkGlowText{
   color: var(--bs-pink) !important;
